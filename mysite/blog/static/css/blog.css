@@ -62,7 +62,7 @@ body {
     
 }
 
-#footer {
+.footer {
     background-color: #ec9cd2;
     position: absolute;
     bottom: 0;
