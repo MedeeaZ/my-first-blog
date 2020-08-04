@@ -16,9 +16,9 @@
     margin-left: 40px;
     padding-bottom: 60px;
 }
-.bdy {
+#bdy {
     position: relative;
-    min-height: 100%;
+    min-height: 100vh;
 }
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
@@ -62,7 +62,7 @@ body {
     
 }
 
-footer {
+#footer {
     background-color: #ec9cd2;
     position: absolute;
     bottom: 0;

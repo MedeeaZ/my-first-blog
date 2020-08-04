@@ -10,7 +10,7 @@
        
     </head>
     <body>
-        <div class = "bdy" >
+        <div id = "bdy" >
         <div class="page-header">
             <h1><a href="/">Medeea's Blog</a></h1>
             {% if user.is_authenticated %}
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <footer>
+        <footer id = "footer">
             <h2> <a href = "{% url 'contact' %}"> Contact </a></h2>
         </footer>
         </div>
