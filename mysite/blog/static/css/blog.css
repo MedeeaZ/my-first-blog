@@ -7,8 +7,12 @@
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
-    font-size: 50pt;
+    font-size: 55pt;
     text-decoration: none;
+}
+
+.navbar-custom {
+    background-color: #ec6cc1;
 }
 
 .content {
@@ -16,16 +20,17 @@
     margin-left: 40px;
     padding-bottom: 60px;
 }
+
+body {
+    background-color: #a3d2f8;
+}
+
 #bdy {
     position: relative;
     min-height: 100vh;
 }
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
-}
-
-.date {
-    color: #000000;
 }
 
 .save {
@@ -43,6 +48,12 @@ h1, h2, h3, h4 {
     margin-right: 20px;
 }
 
+#login {
+    font-size: 24pt;
+    font-family: 'Amethysta', cursive;
+    color: #ffffff;
+}
+
 .post {
     margin-bottom: 70px;
 }
@@ -52,15 +63,15 @@ h1, h2, h3, h4 {
 }
 
 .post p {
-    color: #ec9cd2;
+    color: #000000;
     font-size: 15pt;
+    font-family: 'Amethysta', cursive;
 }
 
-
-body {
-    background-color: #a3d2f8;
-    
+.date p{
+    color: #ec6cc1;
 }
+
 
 .footer {
     background-color: #ec9cd2;
@@ -86,3 +97,4 @@ body {
     font-size: 30px;
     font-family: 'Amethysta', cursive;
 }
+
