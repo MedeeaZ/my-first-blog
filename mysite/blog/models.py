@@ -4,9 +4,16 @@ from django.utils import timezone
 
 
 class Post(models.Model):
+    Cs = 'CS'
+    Art = 'AR'
+    CHOICES = [
+        (Cs, 'Computer Science'), 
+        (Art, 'Art')
+    ]
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
     text = models.TextField()
+    tag = models.CharField(max_length=2, choices=CHOICES, default=Cs)
     picture = models.ImageField(blank = True, null = True)
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
