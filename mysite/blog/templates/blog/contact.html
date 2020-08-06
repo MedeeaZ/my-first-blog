@@ -1,26 +1,11 @@
-{% load static %}
+{% extends 'blog/base.html' %}
 
-<html>
-    <head>
-        <title>Medeea's Blog - Contact</title>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet'>
-        <link rel="stylesheet" href="{% static '/css/blog.css' %}">
-    </head>
+{% block content %}
 
-    <body>
-        <div class = "bdy">
-        <div class = "page-header">
-            <h1><a href = "/" > Medeea's Blog </a> </h1>
-         </div>
-
-         <div class = "contact">
-            <h2 > Contact</h2> 
-        </div>
         
-        <div class = "contact-content">
+     <div class="contact_content">
+        
+        <h1> Contact</h1> 
         <p><b>Postal Address:</b></p>
         <p>Birmingham <br> United Kingdom</p>
         <br>
@@ -29,8 +14,6 @@
         <p> <b>Email:</b> mxz947@student.bham.ac.uk</p>
         </div>
 
-        <footer class = "footer"></footer>
     </div>
-         
-    </body>
-</html>
+
+{% endblock %}
