@@ -8,6 +8,7 @@
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 55pt;
+    letter-spacing: .1em;
     text-decoration: none;
 }
 
@@ -15,6 +16,16 @@
     background-color: #ec6cc1;
 }
 
+.navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-nav li a {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    letter-spacing: .1em;
+    color: #2b75b1;
+}
 .content {
     background-color: #a3d2f8;
     margin-left: 40px;
