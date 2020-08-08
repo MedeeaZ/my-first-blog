@@ -18,7 +18,7 @@
 }
 
 .navbar-toggle .icon-bar {
-    background-color: #ffffff;
+    background-color: #fffa97d0;
 }
 
 .navbar-nav li a {
@@ -28,6 +28,22 @@
     color: #fffa97d0;
     text-shadow: 2px 2px rgb(78, 35, 99);
 }
+.navbar-nav li a:hover {
+    background-color: #cc71d1;
+}
+
+
+.post_text {
+    white-space: nowrap; 
+    width: 90%; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.post_text:hover {
+    overflow: auto;
+}
+
 .content {
     background-color: #f3c5de;
     margin-left: 40px;
@@ -87,7 +103,7 @@ h1, h2, h3, h4 {
 }
 
 .date p{
-    color: #ec6cc1;
+    color: #c245c9;
 }
 
 
@@ -102,6 +118,8 @@ h1, h2, h3, h4 {
 .footer h2, .footer h2 a, .footer h2 a:visited, .footer h2 a:active {
     color: #fffa97d0;
     text-shadow: 2px 2px rgb(78, 35, 99);
+    font-size: 27px;
+    letter-spacing: .1em;
 }
 
 .contact_content {

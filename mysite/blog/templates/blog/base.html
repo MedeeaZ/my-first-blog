@@ -1,10 +1,9 @@
 {% load static %}
 <html>
     <head>
-        <title>Medeea's blog</title>
-        <!--
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Medeea's Blog</title>
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
@@ -46,17 +45,17 @@
                 <!-- Items -->
                 <div class="collapse navbar-collapse" id="topNavBar">
                     <ul class="nav navbar-nav">
-                        <li class = "">
+                        <li class="nav-item">
                             <a href="/">
                                 <span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp; Home 
                             </a>
                         </li>
-                        <li class="">
+                        <li class="nav-item">
                             <a href="{% url 'post_cs' %}" >
                                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span>&nbsp; Computer Science
                               </a>
                           </li>
-                          <li class="">
+                          <li class="nav-item">
                             <a href="{% url 'post_art' %}" >
                                   <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>&nbsp; Art
                               </a>
@@ -75,7 +74,7 @@
         </div>
         
         <footer class = "footer">
-            <h2> <a href = "{% url 'contact' %}"> Contact </a></h2>
+            <h2>{% block footer %} <a href = "{% url 'contact' %}"> Contact </a> {% endblock %} </h2>
         </footer>
         </div>
         
