@@ -23,7 +23,7 @@
 
 .navbar-nav li a {
     font-family: 'Lobster', cursive;
-    font-size: 2.3vmin;
+    font-size: 2.5vmin;
     letter-spacing: .1em;
     color: #fffa97d0;
     text-shadow: 0.2vmin 0.2vmin rgb(78, 35, 99);
@@ -39,19 +39,19 @@ body {
 
 .post_text {
     white-space: nowrap; 
-    height: 10%;
+    max-height: 20vmin;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .post_text:hover {
-    overflow: auto;
+    overflow: scroll;
 }
 
 .content_container {
     background-color: #f3c5de;
     margin-left: 5%;
-    padding-bottom: 60px;
+    padding-bottom: 9.2vmin;
     width: 90%;
    
 }
@@ -85,12 +85,12 @@ h1, h2, h3, h4 {
     font-size: 3vmin;
     font-family: 'Amethysta', cursive;
     color: #fffa97d0;
-    text-shadow: 2px 2px 1px rgb(78, 35, 99);
+    text-shadow: 0.08vmin 0.08vmin 1px rgb(78, 35, 99);
 }
 
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 8vmin;
 }
 
 .post h2, .post h2 a, .post h2 a:visited{
@@ -100,7 +100,7 @@ h1, h2, h3, h4 {
 
 .post p {
     color: #000000;
-    font-size: 2.5vmin;
+    font-size: 2.7vmin;
     font-family: 'Amethysta', cursive;
     text-align: justify;
     text-justify: inter-word;
@@ -113,16 +113,16 @@ h1, h2, h3, h4 {
 
 .footer {
     background-color: #c245c9;
-    bottom: 0vh;
+    bottom: 0px;
     left: 0px;
     width: 100%;
-    height: 9.1vmin;
+    height: 9.3vmin;
    
 }
 
 .footer h2, .footer h2 a, .footer h2 a:visited, .footer h2 a:active {
     color: #fffa97d0;
-    text-shadow: 2px 2px rgb(78, 35, 99);
+    text-shadow: 0.2vmin 0.2vmin rgb(78, 35, 99);
     font-size: 3vmin;
     letter-spacing: .1em;
 }
@@ -137,7 +137,7 @@ h1, h2, h3, h4 {
     font-size: 4vmin;
 }
 .home_content p {
-    font-size: 2.5vmin;
+    font-size: 2.7vmin;
     text-align: justify;
     text-justify: inter-word;
     font-family: 'Amethysta', cursive;
