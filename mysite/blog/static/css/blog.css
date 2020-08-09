@@ -45,7 +45,7 @@ body {
 }
 
 .post_text:hover {
-    overflow: scroll;
+    overflow: auto;
 }
 
 .content_container {
