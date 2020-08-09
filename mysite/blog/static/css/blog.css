@@ -8,7 +8,7 @@
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     
     color: #fffa97d0;
-    font-size: 65pt;
+    font-size: 5vw;
     text-shadow: 2px 2px rgb(78, 35, 99);
     text-decoration: none;
 }
@@ -76,12 +76,12 @@ h1, h2, h3, h4 {
     color: #fffa97d0;
     text-shadow: 2px 2px 1px rgb(78, 35, 99);
     float: right;
-    font-size: 26pt;
+    font-size: 2.3vw;
     margin-right: 20px;
 }
 
 #login {
-    font-size: 24pt;
+    font-size: 2vw;
     font-family: 'Amethysta', cursive;
     color: #fffa97d0;
     text-shadow: 2px 2px 1px rgb(78, 35, 99);
@@ -124,8 +124,8 @@ h1, h2, h3, h4 {
 }
 
 .contact_content {
-    margin-left: 60px;
-    font-size: 30px;
+    margin-left: 40px;
+    font-size: 3.5vmin;
     font-family: 'Amethysta', cursive;
     
 }
