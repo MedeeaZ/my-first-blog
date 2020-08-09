@@ -83,7 +83,7 @@ h1, h2, h3, h4 {
 
 #login {
     font-size: 3vmin;
-    font-family: 'Amethysta', cursive;
+    font-family: 'Roboto', cursive;
     color: #fffa97d0;
     text-shadow: 0.08vmin 0.08vmin 1px rgb(78, 35, 99);
 }
@@ -101,7 +101,7 @@ h1, h2, h3, h4 {
 .post p {
     color: #000000;
     font-size: 2.7vmin;
-    font-family: 'Amethysta', cursive;
+    font-family: 'Roboto', cursive;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -130,7 +130,7 @@ h1, h2, h3, h4 {
 .contact_content {
     margin-left: 40px;
     font-size: 3.5vmin;
-    font-family: 'Amethysta', cursive;
+    font-family: 'Roboto', cursive;
     
 }
 .home_content h1 {
@@ -140,7 +140,7 @@ h1, h2, h3, h4 {
     font-size: 2.7vmin;
     text-align: justify;
     text-justify: inter-word;
-    font-family: 'Amethysta', cursive;
+    font-family: 'Roboto', cursive;
 }
 
 #picture {
