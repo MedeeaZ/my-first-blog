@@ -1,7 +1,7 @@
 .page-header {
     background-image: url("media/purple.jpg");
     margin-top: 0;
-    padding: 20px 20px 40px 40px;
+    padding: 2vh 2vh 2vh 4vh;
     margin-bottom: 0px;
 }
 
@@ -32,6 +32,10 @@
     background-color: #cc71d1;
 }
 
+body {
+    background-color:#f3c5de;
+    
+}
 
 .post_text {
     white-space: nowrap; 
@@ -48,15 +52,11 @@
     background-color: #f3c5de;
     margin-left: 40px;
     padding-bottom: 60px;
-}
-
-body {
-    background-color:#f3c5de;
+   
 }
 
 #bdy {
-    position: relative;
-    min-height: 100vh;
+    min-height: 92vh;
 }
 
 h1, h2, h3, h4 {
@@ -109,10 +109,11 @@ h1, h2, h3, h4 {
 
 .footer {
     background-color: #c245c9;
-    position: absolute;
-    bottom: 0;
+    bottom: 0px;
+    left: 0px;
     width: 100%;
     height: 60px;
+   
 }
 
 .footer h2, .footer h2 a, .footer h2 a:visited, .footer h2 a:active {
@@ -126,6 +127,7 @@ h1, h2, h3, h4 {
     margin-left: 60px;
     font-size: 30px;
     font-family: 'Amethysta', cursive;
+    
 }
 
 .home_content p {
@@ -141,3 +143,4 @@ h1, h2, h3, h4 {
     max-width: 50%;
     max-height: 50%;
 }
+
