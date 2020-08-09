@@ -11,6 +11,9 @@
     {% if post.picture %}
     <img src="{{post.picture.url}}" alt="No image" id = "thumbnail">
     {% endif %}
+
+    <a id="numComm" href="{% url 'post_detail' pk=post.pk %}">Comments: {{ post.approved_comments.count }}</a>
+
 </div>
 {% endfor %}
 {% endblock %}

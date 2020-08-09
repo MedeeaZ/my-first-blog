@@ -106,10 +106,6 @@ h1, h2, h3, h4 {
     text-justify: inter-word;
 }
 
-.date p{
-    color: #c245c9;
-}
-
 
 .footer {
     background-color: #c245c9;
@@ -156,3 +152,18 @@ h1, h2, h3, h4 {
     max-height: 25%;
 }
 
+.comment p, .comment strong{
+    color: #000000;
+    font-size: 2vmin;
+    font-family: 'Roboto', cursive;
+}
+
+#numComm {
+    color: #c245c9;
+    font-size: 2vmin;
+    font-family: 'Roboto', cursive;
+}
+
+.date p{
+    color: #c245c9;
+}
