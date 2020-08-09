@@ -68,5 +68,9 @@ def post_publish(request, pk):
 @login_required
 def post_remove(request, pk):
     post = get_object_or_404(Post, pk=pk)
+    tag = post.tag
     post.delete()
-    return redirect('post_list')
+    if(tag == 'CS'):
+        return redirect('post_cs')
+    else:
+        return redirect('post_art')
