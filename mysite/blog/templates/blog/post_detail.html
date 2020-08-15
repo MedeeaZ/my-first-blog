@@ -16,7 +16,7 @@
             <a class="btn btn-default" href="{% url 'post_remove' pk=post.pk %}"><span class="glyphicon glyphicon-remove"></span></a>
         {% endif %}
         
-        <h2>{{ post.title }}</h2>
+        <h2 class="postTitle">{{ post.title }}</h2>
         <p> {{post.text|linebreaksbr }}</p>
         {% if post.picture %}
         <a target="_blank" href="{{post.picture.url}}">
