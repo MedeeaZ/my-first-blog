@@ -46,16 +46,6 @@ body {
     
 }
 
-.post_text {
-    white-space: nowrap; 
-    max-height: 20vmin;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.post_text:hover {
-    overflow: auto;
-}
 
 .content_container {
     background-color: #f3c5de00;
@@ -66,7 +56,7 @@ body {
 }
 
 #bdy {
-    min-height: 92vh;
+    min-height: 94vh;
 }
 
 h1, h2, h3, h4 {
