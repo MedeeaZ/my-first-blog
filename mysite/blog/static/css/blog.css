@@ -99,7 +99,7 @@ h1, h2, h3, h4 {
 
 .post p {
     color: #000000;
-    font-size: 2.8vh;
+    font-size: 2.5vh;
     font-family: 'Roboto', cursive;
     text-align: justify;
     text-justify: inter-word;
@@ -154,7 +154,7 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 .home_content p {
-    font-size: 2.8vh;
+    font-size: 2.5vh;
     text-align: justify;
     text-justify: inter-word;
     font-family: 'Roboto', cursive;
