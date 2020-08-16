@@ -8,8 +8,8 @@
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     
     color: #fffa97d0;
-    font-size: 4vw;
-    text-shadow: 0.15vw 0.15vw rgb(78, 35, 99);
+    font-size: 4vmax;
+    text-shadow: 0.15vmax 0.15vmax rgb(78, 35, 99);
     text-decoration: none;
 }
 
@@ -32,7 +32,7 @@
   }
 .navbar-nav li a {
     font-family: 'Lobster', cursive;
-    font-size: 2.5vmin;
+    font-size: 2.5vh;
     letter-spacing: .1em;
     color: #fffa97d0;
     text-shadow: 0.2vmin 0.2vmin rgb(78, 35, 99);
@@ -49,9 +49,9 @@ body {
 
 .content_container {
     background-color: #f3c5de00;
-    margin-left: 15%;
+    margin-left: 10%;
     padding-bottom: 2vmin;
-    width: 70%;
+    width: 80%;
    
 }
 
@@ -94,12 +94,12 @@ h1, h2, h3, h4 {
 
 .post h2, .post h2 a, .post h2 a:visited{
     color: #000000;
-    font-size: 4vmin;
+    font-size: 3.5vh;
 }
 
 .post p {
     color: #000000;
-    font-size: 2.7vmin;
+    font-size: 2.8vh;
     font-family: 'Roboto', cursive;
     text-align: justify;
     text-justify: inter-word;
@@ -142,19 +142,19 @@ h1, h2, h3, h4 {
 
 .contact_content {
     margin-left: 40px;
-    font-size: 3.5vmin;
+    font-size: 3.5vh;
     font-family: 'Roboto', cursive;
     
 }
 .home_content {
-    padding-top: 2vmin;
+    padding-top: 1vmin;
 }
 .home_content h1 {
-    font-size: 4vmin;
+    font-size: 3.5vh;
     text-align: center;
 }
 .home_content p {
-    font-size: 2.7vmin;
+    font-size: 2.8vh;
     text-align: justify;
     text-justify: inter-word;
     font-family: 'Roboto', cursive;
@@ -162,13 +162,13 @@ h1, h2, h3, h4 {
 
 .comment p, .comment strong{
     color: #000000;
-    font-size: 2vmin;
+    font-size: 2vh;
     font-family: 'Roboto', cursive;
 }
 
 #numComm {
     color: #c245c9;
-    font-size: 2vmin;
+    font-size: 2vh;
     font-family: 'Roboto', cursive;
 }
 
