@@ -51,10 +51,18 @@
                                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span>&nbsp; Computer Science
                               </a>
                           </li>
-                          <li class="nav-item">
-                            <a href="{% url 'post_art' %}" >
-                                  <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>&nbsp; Art
-                              </a>
+                          <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="{% url 'post_art' %}"> 
+                                  <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>&nbsp; Art <span class="caret"></span> 
+                                </a>
+                            <ul class="nav-item dropdown-menu">
+                                <li><a href="{% url 'post_art' %}">Gallery</a></li>
+                              <li><a href="{% url 'post_pencils' %}">Coloured Pencils</a></li>
+                              <li><a href="{% url 'post_watercolours' %}">Watercolours</a></li>
+                              <li><a href="{% url 'post_acrylics' %}">Acrylics</a></li>
+                              <li><a href="{% url 'post_oil' %}">Oil Paints</a></li>
+                              <li><a href="{% url 'post_digital' %}">Digital</a></li>
+                            </ul>
                           </li>
                     </ul>
                 </div>

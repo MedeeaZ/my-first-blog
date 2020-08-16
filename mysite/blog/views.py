@@ -14,12 +14,38 @@ def post_list(request):
 def post_cs(request):
     inposts = Post.objects.filter(tag__contains='Cs').order_by('published_date')
     posts = inposts.filter(published_date__lte = timezone.now())
-    return render(request, 'blog/post_cs.html', {'posts':posts})
+    return render(request, 'blog/post_list.html', {'posts':posts})
 
 def post_art(request):
-    inposts = Post.objects.filter(tag__contains='Ar').order_by('published_date')
+    inposts = Post.objects.exclude(tag__contains='Cs').order_by('published_date')
     posts = inposts.filter(published_date__lte = timezone.now())
-    return render(request, 'blog/post_art.html', {'posts':posts})
+    return render(request, 'blog/post_list.html', {'posts':posts})
+
+def post_pencils(request):
+    inposts = Post.objects.filter(tag__contains='Cp').order_by('published_date')
+    posts = inposts.filter(published_date__lte = timezone.now())
+    return render(request, 'blog/post_list.html', {'posts':posts})
+
+def post_acrylics(request):
+    inposts = Post.objects.filter(tag__contains='Ac').order_by('published_date')
+    posts = inposts.filter(published_date__lte = timezone.now())
+    return render(request, 'blog/post_list.html', {'posts':posts})
+
+def post_watercolours(request):
+    inposts = Post.objects.filter(tag__contains='Wt').order_by('published_date')
+    posts = inposts.filter(published_date__lte = timezone.now())
+    return render(request, 'blog/post_list.html', {'posts':posts})
+
+def post_oil(request):
+    inposts = Post.objects.filter(tag__contains='Op').order_by('published_date')
+    posts = inposts.filter(published_date__lte = timezone.now())
+    return render(request, 'blog/post_list.html', {'posts':posts})
+
+def post_digital(request):
+    inposts = Post.objects.filter(tag__contains='Dg').order_by('published_date')
+    posts = inposts.filter(published_date__lte = timezone.now())
+    return render(request, 'blog/post_list.html', {'posts':posts})
+
 
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)

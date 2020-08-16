@@ -5,10 +5,19 @@ from django.utils import timezone
 
 class Post(models.Model):
     Cs = 'CS'
-    Art = 'AR'
+    Cp = 'CP'
+    Ac = 'AC'
+    Wt = 'WT'
+    Op = 'OP'
+    Dg = 'DG'
     CHOICES = [
         (Cs, 'Computer Science'), 
-        (Art, 'Art')
+        (Cp, 'Coloured Pencils'),
+        (Ac, 'Acrylics'),
+        (Wt, 'Watercolours'),
+        (Op, 'Oil Paints'),
+        (Dg, 'Digital'),
+
     ]
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)

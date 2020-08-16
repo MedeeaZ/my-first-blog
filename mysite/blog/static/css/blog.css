@@ -30,6 +30,7 @@
 .navbar .navbar-collapse {
     text-align: center;
   }
+  
 .navbar-nav li a {
     font-family: 'Lobster', cursive;
     font-size: 2.5vh;
@@ -37,8 +38,30 @@
     color: #fffa97d0;
     text-shadow: 0.2vmin 0.2vmin rgb(78, 35, 99);
 }
-.navbar-nav li a:hover {
+
+.navbar-nav li a:hover, .navbar-nav li a:active, .navbar-nav li a:visited {
     background-color: #cc71d1;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #c245c9; 
+}
+
+.navbar-nav .dropdown-menu li a:hover, .navbar-nav .dropdown-menu  li a:active, .navbar-nav li .dropdown-menu  a:visited {
+    background-color: #cc71d1;
+}
+
+.navbar-nav .dropdown-menu li a {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5vh;
+    letter-spacing: .1em;
+    color: #fffa97d0;
+    text-shadow: 0.2vmin 0.2vmin rgb(78, 35, 99);
+}
+
+.navbar-nav .dropdown a:active, .navbar-nav .dropdown a:hover, .navbar-nav .dropdown a:visited{
+    background-color: #cc71d1;
+
 }
 
 body {
