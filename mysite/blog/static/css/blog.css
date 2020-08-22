@@ -1,3 +1,5 @@
+/* Header */
+
 .page-header {
     background-image: url("media/purple.jpg");
     margin-top: 0;
@@ -12,6 +14,8 @@
     text-shadow: 0.15vmax 0.15vmax rgb(78, 35, 99);
     text-decoration: none;
 }
+
+/* Menu */
 
 .navbar-custom {
      background-color: #c245c9; 
@@ -64,6 +68,8 @@
 
 }
 
+/* Body */
+
 body {
     background-color:#f3c5deb9;
     
@@ -95,6 +101,8 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 
+/* Buttons right corner */ 
+
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #fffa97d0;
     text-shadow: 0.08vw 0.08vw 1px rgb(78, 35, 99);
@@ -110,6 +118,7 @@ h1, h2, h3, h4 {
     text-shadow: 0.08vmin 0.08vmin 1px rgb(78, 35, 99);
 }
 
+/* Posts */
 
 .post {
     margin-bottom: 8vmin;
@@ -145,6 +154,8 @@ h1, h2, h3, h4 {
     max-height: 25%;
 }
 
+/* Footer */
+
 .footer {
     background-color: #c245c9;
     bottom: 0px;
@@ -163,12 +174,16 @@ h1, h2, h3, h4 {
     padding-top: 0.5vmin;
 }
 
+/* Contact */
+
 .contact_content {
     margin-left: 40px;
     font-size: 3.5vh;
     font-family: 'Roboto', cursive;
     
 }
+
+/* Homepage */
 .home_content {
     padding-top: 1vmin;
 }
@@ -182,6 +197,8 @@ h1, h2, h3, h4 {
     text-justify: inter-word;
     font-family: 'Roboto', cursive;
 }
+
+/* Comments */
 
 .comment p, .comment strong{
     color: #000000;
