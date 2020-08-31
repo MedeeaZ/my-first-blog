@@ -9,7 +9,7 @@
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     
-    color: #fffa97d0;
+    color: rgba(255,250,151,0.815);
     font-size: 4vmax;
     text-shadow: 0.15vmax 0.15vmax rgb(78, 35, 99);
     text-decoration: none;
@@ -18,11 +18,11 @@
 /* Menu */
 
 .navbar-custom {
-     background-color: #c245c9; 
+     background-color: rgb(194, 69, 201); 
 }
 
 .navbar-toggle .icon-bar {
-    background-color: #fffa97d0;
+    background-color: rgba(255,250,151,0.815);
 }
 
 .navbar .navbar-nav {
@@ -39,45 +39,45 @@
     font-family: 'Lobster', cursive;
     font-size: 2.5vh;
     letter-spacing: .1em;
-    color: #fffa97d0;
+    color: rgba(255,250,151,0.815);
     text-shadow: 0.2vmin 0.2vmin rgb(78, 35, 99);
 }
 
 .navbar-nav li a:hover, .navbar-nav li a:active, .navbar-nav li a:visited {
-    background-color: #cc71d1;
+    background-color: rgb(204, 113, 209);
 }
 
 .navbar-nav .dropdown-menu {
-    background-color: #c245c9; 
+    background-color: rgb(194, 69, 201); 
 }
 
 .navbar-nav .dropdown-menu li a:hover, .navbar-nav .dropdown-menu  li a:active, .navbar-nav li .dropdown-menu  a:visited {
-    background-color: #cc71d1;
+    background-color: rgb(204, 113, 209);
 }
 
 .navbar-nav .dropdown-menu li a {
     font-family: 'Lobster', cursive;
     font-size: 2.5vh;
     letter-spacing: .1em;
-    color: #fffa97d0;
+    color: rgba(255,250,151,0.815);
     text-shadow: 0.2vmin 0.2vmin rgb(78, 35, 99);
 }
 
 .navbar-nav .dropdown a:active, .navbar-nav .dropdown a:hover, .navbar-nav .dropdown a:visited{
-    background-color: #cc71d1;
+    background-color: rgb(204, 113, 209);
 
 }
 
 /* Body */
 
 body {
-    background-color:#f3c5deb9;
+    background-color:rgba(243,197,222,0.725);
     
 }
 
 
 .content_container {
-    background-color: #f3c5de00;
+    background-color: rgba(243,197,222,0);
     margin-left: 10%;
     padding-bottom: 2vmin;
     width: 80%;
@@ -104,7 +104,7 @@ h1, h2, h3, h4 {
 /* Buttons right corner */ 
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #fffa97d0;
+    color: rgba(255,250,151,0.815);
     text-shadow: 0.08vw 0.08vw 1px rgb(78, 35, 99);
     float: right;
     font-size: 3vmin;
@@ -114,7 +114,7 @@ h1, h2, h3, h4 {
 #login {
     font-size: 3vmin;
     font-family: 'Roboto', cursive;
-    color: #fffa97d0;
+    color: rgba(255,250,151,0.815);
     text-shadow: 0.08vmin 0.08vmin 1px rgb(78, 35, 99);
 }
 
@@ -157,7 +157,7 @@ h1, h2, h3, h4 {
 /* Footer */
 
 .footer {
-    background-color: #c245c9;
+    background-color: rgb(194, 69, 201);
     bottom: 0px;
     left: 0px;
     width: 100%;
@@ -166,7 +166,7 @@ h1, h2, h3, h4 {
 }
 
 .footer h2, .footer h2 a, .footer h2 a:visited, .footer h2 a:active {
-    color: #fffa97d0;
+    color: rgba(255,250,151,0.815);
     text-shadow: 0.2vmin 0.2vmin rgb(78, 35, 99);
     font-size: 3vmin;
     letter-spacing: .1em;
@@ -207,11 +207,11 @@ h1, h2, h3, h4 {
 }
 
 #numComm {
-    color: #c245c9;
+    color: rgb(194, 69, 201);
     font-size: 2vh;
     font-family: 'Roboto', cursive;
 }
 
 .date p{
-    color: #c245c9;
+    color: rgb(194, 69, 201);
 }
